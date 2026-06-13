@@ -1,0 +1,310 @@
+==========================================================
+  PORTFOLIO WEBSITE BUILD PROMPT — SATYAM CHOUDHARY
+  Codename: ANTIGRAVITY
+==========================================================
+
+----------------------------------------------------------
+  HOW TO USE THIS PROMPT
+----------------------------------------------------------
+
+This file is your master build prompt. Before starting,
+you will receive two additional files from the user:
+
+  1. UI IDEA      — The visual theme, aesthetic direction,
+                    color palette, motion style, and any
+                    reference layouts or design inspiration.
+
+  2. IMG          — A folder of project screenshot/cover
+                    images. Each image is named exactly
+                    after its project:
+                      triage.os.png
+                      foodwastepredictor.png
+                      quorum.png
+                      bharatbuddy.png
+                    Use these as the visual card headers
+                    for each project in the Projects section.
+
+Read both files before writing a single line of code.
+Let UI IDEA override any design defaults below.
+Let IMG filenames map 1:1 to the project entries below.
+
+
+----------------------------------------------------------
+  OWNER IDENTITY
+----------------------------------------------------------
+
+Full Name:    Satyam Choudhary
+Handle:       @satyamcybe
+Email:        satyamchy111@gmail.com
+Mobile:       +91 9819466910
+GitHub:       github.com/satyamcybe
+LinkedIn:     linkedin.com/in/satyam100
+Location:     Mumbai, India
+
+
+----------------------------------------------------------
+  SITE GOAL & AUDIENCE
+----------------------------------------------------------
+
+This is a personal developer portfolio for Satyam Choudhary,
+a second-year Computer Engineering student at TCET Mumbai.
+
+Primary audience: hackathon organizers, open source maintainers,
+college tech communities, and potential collaborators who
+land here from GitHub, LinkedIn, or a shared link.
+
+The site's single job: make someone who arrives cold want
+to reach out, collaborate, or follow within 60 seconds.
+
+Tone: confident, fast, real. Not corporate. Not over-designed.
+The aesthetic should feel like the work — built by someone
+who ships, not someone who perfects.
+
+
+----------------------------------------------------------
+  TECH STACK (IMPLEMENT IN THIS)
+----------------------------------------------------------
+
+Single-file HTML + CSS + Vanilla JS (no frameworks, no build
+tools). All sections on one scrollable page. Fully responsive
+(mobile-first). Smooth scroll navigation. Dark mode by default.
+
+Fonts: Load from Google Fonts. Pick two faces that match the
+UI IDEA file. If UI IDEA does not specify fonts, choose a
+strong geometric/mono display face for headings and a clean
+sans for body text.
+
+Animations: Scroll-triggered reveals (IntersectionObserver).
+Subtle, purposeful. No particle spam. Reduce motion if
+prefers-reduced-motion is set.
+
+
+----------------------------------------------------------
+  SITE STRUCTURE (SECTIONS IN ORDER)
+----------------------------------------------------------
+
+[0] NAV
+  - Logo/handle: @satyamcybe (left)
+  - Links: About · Skills · Projects · Experience · Contact
+  - Sticky, minimal, transparent over hero → solid on scroll
+  - Mobile: hamburger → slide-down menu
+
+[1] HERO
+  - Full-viewport opening section
+  - Name: Satyam Choudhary
+  - Handle: @satyamcybe
+  - Tagline (use one, pick the best fit for UI IDEA):
+      → "I build fast, ship faster, and learn by doing."
+      → "Vibe coder. Full-stack builder. Open source contributor."
+      → "From hackathons to college tools: I build for real contexts."
+  - One-liner:
+      Second-year Computer Engineering student at TCET Mumbai —
+      building production-ready full-stack products, contributing
+      to open source, and creating tools that actually matter to
+      the people around me.
+  - Two CTAs:
+      [View Projects]   → scrolls to #projects
+      [GitHub]          → github.com/satyamcybe (opens new tab)
+  - Signature visual: defined in UI IDEA. If unspecified, use
+    a single bold typographic statement with a kinetic/floating
+    element — something that earns the "antigravity" codename.
+
+[2] ABOUT
+  - Short 3–4 sentence bio (use content below verbatim or adapt):
+      I'm a second-year Computer Engineering student at Thakur
+      College of Engineering and Technology (TCET), Mumbai
+      (Batch 2025–29). My development philosophy is simple:
+      ship fast, build visually impressive things, and learn
+      everything by doing. I call it "vibe coding" — and it's
+      gotten me further than any textbook ever has.
+      Beyond code, I'm a public speaker, creative writer,
+      and community builder.
+  - Community roles (displayed as tags or cards):
+      · HackLab — Community Handler (350+ members)
+      · GSSoC — Contributor & Student Ambassador
+      · TCET ISTE — Working Committee Member
+
+[3] SKILLS
+  - Organized into clear groups (grid or tag cloud per UI IDEA):
+
+    Frontend:
+      HTML · CSS · Tailwind CSS · JavaScript · React.js · Flutter
+
+    Backend:
+      Node.js · Express · PostgreSQL · MySQL
+
+    Languages & Tools:
+      JavaScript · C/C++ · Java · Python · Motoko (IC Blockchain)
+      Git · GitHub
+
+    Soft Skills:
+      Public Speaking · Event Coordination · Creative Writing
+      Community Building · Leadership · PR & Outreach
+      Pitching & Presentation
+
+[4] PROJECTS
+  - Card grid (2 columns desktop, 1 column mobile)
+  - Each card: project image (from IMG folder) + name + stack
+    tags + short description + live link button
+  - Cards sorted by impact (flagship first)
+
+  ── PROJECT CARDS ──────────────────────────────────────
+
+  Card 1: TRIAGE.OS
+    Image:    triage.os.png  (from IMG folder)
+    Badge:    🏆 Top 10 National Finalist — Hackarena 2.0
+    Stack:    React · Node.js · Anthropic API · AI/ML
+    Desc:     A full hospital operating system — agentic clinical
+              copilot, voice scribe, pharmacy agent, multilingual
+              patient comms, and predictive discharge planning.
+    Link:     https://triage-os-frontend.vercel.app/
+    CTA:      [View Live →]
+
+  Card 2: FOODWASTEPREDICTOR
+    Image:    foodwastepredictor.png  (from IMG folder)
+    Stack:    Full-stack · Chart.js · JWT Auth
+    Desc:     Predicts and reduces food waste in campus canteens.
+              Data visualizations, admin dashboard, ML prediction.
+    Link:     https://v0-food-waste-predictor.vercel.app/
+    CTA:      [View Live →]
+
+  Card 3: QUORUM
+    Image:    quorum.png  (from IMG folder)
+    Badge:    Hackathon — Shri Baghubai Mafatlal Polytechnic
+    Stack:    React · HTML/CSS · JS
+    Desc:     Anonymous group voting platform that resolves
+              indecision through weighted consensus. Built and
+              presented at QUORUM 2026.
+    Link:     https://ayush-5107.github.io/HORIZON/
+    CTA:      [View Live →]
+
+  Card 4: BHARATBUDDY
+    Image:    bharatbuddy.png  (from IMG folder)
+    Stack:    HTML · CSS · JS · UI/UX
+    Desc:     A cultural compass for navigating India — celebrates
+              diversity through an interactive web platform.
+    Link:     https://satyamcybe.github.io/BharatBuddy/
+    CTA:      [View Live →]
+
+[5] EXPERIENCE & ROLES
+  - Timeline or card layout (per UI IDEA)
+
+  · GSSoC — Contributor & Student Ambassador (2026)
+      Open source contributions + peer education + awareness.
+
+  · HackLab — Community Handler (2026)
+      Built a 350+ member cross-college opportunity-first
+      tech community for hackathon and open source awareness.
+
+  · TCET ISTE — Working Committee Member (2025–26)
+      AC-STEM: Interactive games, offline PR (20–25 students).
+      FIESTA: Backstage operations, logistics, execution.
+
+  · Class Representative
+      TCET FE Comp-A, Sem 1 (2025–26)
+      E.S. Andreas College of Science — CR & Co-LR
+
+[6] ACHIEVEMENTS
+  - Bold, scannable. Trophy/medal icons.
+
+  🏆  Top 10 National Finalist — Hackarena 2.0
+        Project: Triage.OS
+
+  🌐  GSSoC Student Ambassador
+        Open source contributor & community builder
+
+  📦  10+ Shipped Projects
+        Web2, Web3, healthcare AI, college tooling
+
+[7] EDUCATION
+  - Clean table or stacked card layout
+
+  B.E. Computer Engineering
+    TCET Mumbai · Batch 2025–29 · SGPA: 9.62
+    Currently: Second Year
+
+  HSC — Science
+    E.S. Andreas College of Science, Vasai (W) · 2023–25
+
+  SSC
+    Shree Siddhivinayak English High School, Virar (E)
+    2023 · 93.80%
+
+[8] CONTACT
+  - Clean, minimal. No full form needed — just links + email.
+  - Email:    satyamchy111@gmail.com
+  - GitHub:   github.com/satyamcybe
+  - LinkedIn: linkedin.com/in/satyam100
+  - Phone:    +91 9819466910
+  - CTA line: "Let's build something real. Reach out."
+  - Optional: small contact form (Name · Email · Message · Send)
+
+[9] FOOTER
+  - "Built by @satyamcybe"
+  - Year: 2026
+  - Quick nav links
+
+
+----------------------------------------------------------
+  DESIGN RULES (override with UI IDEA if it conflicts)
+----------------------------------------------------------
+
+1. Dark background by default. Light mode optional toggle.
+2. One strong accent color. One secondary. Rest neutral.
+3. Heading hierarchy must be clear at a glance.
+4. Project cards must show the image prominently — it's the
+   first thing the eye should land on.
+5. Every live project link must open in a new tab.
+6. No placeholder content. Use all real data from this file.
+7. Mobile layout must not break on 375px viewport width.
+8. Scroll transitions should feel smooth, not jarring.
+9. The "antigravity" theme should be expressed visually —
+   floating elements, upward motion, zero-gravity feel —
+   not just as a word. Details in UI IDEA.
+10. Performance: no unnecessary libraries. Keep it fast.
+
+
+----------------------------------------------------------
+  IMAGE USAGE INSTRUCTIONS
+----------------------------------------------------------
+
+All project images live in the IMG folder provided by the user.
+File naming convention (exact):
+
+  triage.os.png         → Card 1: TRIAGE.OS
+  foodwastepredictor.png → Card 2: FOODWASTEPREDICTOR
+  quorum.png            → Card 3: QUORUM
+  bharatbuddy.png       → Card 4: BHARATBUDDY
+
+In the HTML, reference them as:
+  <img src="IMG/triage.os.png" alt="Triage.OS project preview">
+  <img src="IMG/foodwastepredictor.png" alt="FoodWastePredictor preview">
+  <img src="IMG/quorum.png" alt="Quorum project preview">
+  <img src="IMG/bharatbuddy.png" alt="BharatBuddy project preview">
+
+Style images: object-fit: cover, fixed aspect ratio (16:9 or
+3:2 recommended for cards), rounded corners per UI IDEA.
+
+
+----------------------------------------------------------
+  FINAL BUILD CHECKLIST
+----------------------------------------------------------
+
+Before delivering the file, verify:
+
+  [ ] All real data used — no Lorem Ipsum
+  [ ] All project links work and open in new tab
+  [ ] IMG references match exact filenames above
+  [ ] Fully responsive (tested at 375px, 768px, 1280px)
+  [ ] Smooth scroll active
+  [ ] Nav highlights active section on scroll
+  [ ] Reduced motion respected
+  [ ] No broken layout on card grid
+  [ ] Hero tagline matches chosen sub-tagline (not all three)
+  [ ] "Antigravity" theme is visible, not just implied
+
+
+==========================================================
+  END OF PROMPT FILE
+  Provide UI IDEA and IMG folder to complete the build.
+==========================================================
